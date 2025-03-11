@@ -1,0 +1,53 @@
+.pup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.812);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    color: black;
+}
+
+ .pup-inner{
+    position: relative;
+    padding: 32px;
+    width: 100%;
+    max-width: 640px;
+    background-color: rgb(129, 180, 224);
+
+}
+
+.pup-inner .close-btn{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    border: none;
+    font-size: 2rem;
+    background: none;
+    cursor: pointer;
+}
+
+.pup-inner h3{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.pup-inner p{
+    margin-bottom: 1rem;
+    color: black;
+}
+
+.pup-inner p i{
+    margin-right: 1rem;
+    color: black;
+}
+
+@media screen and (max-width: 1120px){
+    .pup-inner .close-btn i{
+        color: black;
+    }
+}
